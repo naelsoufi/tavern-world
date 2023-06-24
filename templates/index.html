@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tavern World</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1>Generate your world</h1>
+        <h2>{{ tavern.name }}</h2>
+        <p>Owner : <a href="{{ url_for('npc_page', npc_name=tavern.owner['name'], npc_gender=tavern.owner['gender']) }}">{{ tavern.owner['name'] }}</a></p>
+    </body>
+</html>
