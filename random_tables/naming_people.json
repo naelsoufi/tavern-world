@@ -1,0 +1,502 @@
+[
+    {
+      "dice": 1,
+      "attribute": "Abbot",
+      "variation": ""
+    },
+    {
+      "dice": 2,
+      "attribute": "Abjurer",
+      "variation": ""
+    },
+    {
+      "dice": 3,
+      "attribute": "Adept",
+      "variation": ""
+    },
+    {
+      "dice": 4,
+      "attribute": "Alchemist",
+      "variation": ""
+    },
+    {
+      "dice": 5,
+      "attribute": "Aristocrat",
+      "variation": ""
+    },
+    {
+      "dice": 6,
+      "attribute": "Assassin",
+      "variation": ""
+    },
+    {
+      "dice": 7,
+      "attribute": "Barbarian",
+      "variation": ""
+    },
+    {
+      "dice": 8,
+      "attribute": "Bard",
+      "variation": ""
+    },
+    {
+      "dice": 9,
+      "attribute": "Barrister",
+      "variation": ""
+    },
+    {
+      "dice": 10,
+      "attribute": "Baron",
+      "variation": ""
+    },
+    {
+      "dice": 11,
+      "attribute": "Beggar",
+      "variation": ""
+    },
+    {
+      "dice": 12,
+      "attribute": "Bishop",
+      "variation": ""
+    },
+    {
+      "dice": 13,
+      "attribute": "Blacksmith",
+      "variation": ""
+    },
+    {
+      "dice": 14,
+      "attribute": "Burglar",
+      "variation": ""
+    },
+    {
+      "dice": 15,
+      "attribute": "Cavalier",
+      "variation": ""
+    },
+    {
+      "dice": 16,
+      "attribute": "Chamberlain",
+      "variation": ""
+    },
+    {
+      "dice": 17,
+      "attribute": "Chancellor",
+      "variation": ""
+    },
+    {
+      "dice": 18,
+      "attribute": "Cleric",
+      "variation": ""
+    },
+    {
+      "dice": 19,
+      "attribute": "Conjurer",
+      "variation": ""
+    },
+    {
+      "dice": 20,
+      "attribute": "Constable",
+      "variation": ""
+    },
+    {
+      "dice": 21,
+      "attribute": "Cook",
+      "variation": ""
+    },
+    {
+      "dice": 22,
+      "attribute": "Disciple",
+      "variation": ""
+    },
+    {
+      "dice": 23,
+      "attribute": "Diviner",
+      "variation": ""
+    },
+    {
+      "dice": 24,
+      "attribute": "Druid",
+      "variation": ""
+    },
+    {
+      "dice": 25,
+      "attribute": "Duke",
+      "variation": "Duchesse"
+    },
+    {
+      "dice": 26,
+      "attribute": "Emperor",
+      "variation": ""
+    },
+    {
+      "dice": 27,
+      "attribute": "Enchanter",
+      "variation": ""
+    },
+    {
+      "dice": 28,
+      "attribute": "Evoker",
+      "variation": ""
+    },
+    {
+      "dice": 29,
+      "attribute": "Executioner",
+      "variation": ""
+    },
+    {
+      "dice": 30,
+      "attribute": "Farmer",
+      "variation": ""
+    },
+    {
+      "dice": 31,
+      "attribute": "Fiddler",
+      "variation": ""
+    },
+    {
+      "dice": 32,
+      "attribute": "Fighter",
+      "variation": ""
+    },
+    {
+      "dice": 33,
+      "attribute": "Fisherman",
+      "variation": ""
+    },
+    {
+      "dice": 34,
+      "attribute": "Fishmonger",
+      "variation": ""
+    },
+    {
+      "dice": 35,
+      "attribute": "Footpad",
+      "variation": ""
+    },
+    {
+      "dice": 36,
+      "attribute": "Friar",
+      "variation": ""
+    },
+    {
+      "dice": 37,
+      "attribute": "Gypsy",
+      "variation": ""
+    },
+    {
+      "dice": 38,
+      "attribute": "Hangman",
+      "variation": ""
+    },
+    {
+      "dice": 39,
+      "attribute": "Harlot",
+      "variation": ""
+    },
+    {
+      "dice": 40,
+      "attribute": "Hermit",
+      "variation": ""
+    },
+    {
+      "dice": 41,
+      "attribute": "Highwayman",
+      "variation": ""
+    },
+    {
+      "dice": 42,
+      "attribute": "Hooligan",
+      "variation": ""
+    },
+    {
+      "dice": 43,
+      "attribute": "Horseman",
+      "variation": ""
+    },
+    {
+      "dice": 44,
+      "attribute": "Huntsman",
+      "variation": ""
+    },
+    {
+      "dice": 45,
+      "attribute": "Illusionist",
+      "variation": ""
+    },
+    {
+      "dice": 46,
+      "attribute": "Inn Keeper",
+      "variation": ""
+    },
+    {
+      "dice": 47,
+      "attribute": "Inquisitor",
+      "variation": ""
+    },
+    {
+      "dice": 48,
+      "attribute": "Jailer",
+      "variation": ""
+    },
+    {
+      "dice": 49,
+      "attribute": "Jester",
+      "variation": ""
+    },
+    {
+      "dice": 50,
+      "attribute": "King",
+      "variation": ""
+    },
+    {
+      "dice": 51,
+      "attribute": "Knight",
+      "variation": ""
+    },
+    {
+      "dice": 52,
+      "attribute": "Lady",
+      "variation": ""
+    },
+    {
+      "dice": 53,
+      "attribute": "Lass",
+      "variation": ""
+    },
+    {
+      "dice": 54,
+      "attribute": "Lord",
+      "variation": ""
+    },
+    {
+      "dice": 55,
+      "attribute": "Mage",
+      "variation": ""
+    },
+    {
+      "dice": 56,
+      "attribute": "Magus",
+      "variation": ""
+    },
+    {
+      "dice": 57,
+      "attribute": "Maiden",
+      "variation": ""
+    },
+    {
+      "dice": 58,
+      "attribute": "Mariner",
+      "variation": ""
+    },
+    {
+      "dice": 59,
+      "attribute": "Miller",
+      "variation": ""
+    },
+    {
+      "dice": 60,
+      "attribute": "Minstrel",
+      "variation": ""
+    },
+    {
+      "dice": 61,
+      "attribute": "Monarch",
+      "variation": ""
+    },
+    {
+      "dice": 62,
+      "attribute": "Moneylender",
+      "variation": ""
+    },
+    {
+      "dice": 63,
+      "attribute": "Monk",
+      "variation": ""
+    },
+    {
+      "dice": 64,
+      "attribute": "Mystic",
+      "variation": ""
+    },
+    {
+      "dice": 65,
+      "attribute": "Necromancer",
+      "variation": ""
+    },
+    {
+      "dice": 66,
+      "attribute": "Noble",
+      "variation": ""
+    },
+    {
+      "dice": 67,
+      "attribute": "Oracle",
+      "variation": ""
+    },
+    {
+      "dice": 68,
+      "attribute": "Paladin",
+      "variation": ""
+    },
+    {
+      "dice": 69,
+      "attribute": "Peasant",
+      "variation": ""
+    },
+    {
+      "dice": 70,
+      "attribute": "Peddler",
+      "variation": ""
+    },
+    {
+      "dice": 71,
+      "attribute": "Pickpocket",
+      "variation": ""
+    },
+    {
+      "dice": 72,
+      "attribute": "Pilgrim",
+      "variation": ""
+    },
+    {
+      "dice": 73,
+      "attribute": "Piper",
+      "variation": ""
+    },
+    {
+      "dice": 74,
+      "attribute": "Plowman",
+      "variation": ""
+    },
+    {
+      "dice": 75,
+      "attribute": "Porter",
+      "variation": ""
+    },
+    {
+      "dice": 76,
+      "attribute": "Priest",
+      "variation": "Priestess"
+    },
+    {
+      "dice": 77,
+      "attribute": "Prince",
+      "variation": "Princess"
+    },
+    {
+      "dice": 78,
+      "attribute": "Queen",
+      "variation": ""
+    },
+    {
+      "dice": 79,
+      "attribute": "Ranger",
+      "variation": ""
+    },
+    {
+      "dice": 80,
+      "attribute": "Rogue",
+      "variation": ""
+    },
+    {
+      "dice": 81,
+      "attribute": "Sailor",
+      "variation": ""
+    },
+    {
+      "dice": 82,
+      "attribute": "Scholar",
+      "variation": ""
+    },
+    {
+      "dice": 83,
+      "attribute": "Scribe",
+      "variation": ""
+    },
+    {
+      "dice": 84,
+      "attribute": "Servant",
+      "variation": ""
+    },
+    {
+      "dice": 85,
+      "attribute": "Shaman",
+      "variation": ""
+    },
+    {
+      "dice": 86,
+      "attribute": "Shepherd",
+      "variation": ""
+    },
+    {
+      "dice": 87,
+      "attribute": "Sheriff",
+      "variation": ""
+    },
+    {
+      "dice": 88,
+      "attribute": "Soldier",
+      "variation": ""
+    },
+    {
+      "dice": 89,
+      "attribute": "Sorcerer",
+      "variation": ""
+    },
+    {
+      "dice": 90,
+      "attribute": "Spinster",
+      "variation": ""
+    },
+    {
+      "dice": 91,
+      "attribute": "Squire",
+      "variation": ""
+    },
+    {
+      "dice": 92,
+      "attribute": "Steward",
+      "variation": ""
+    },
+    {
+      "dice": 93,
+      "attribute": "Summoner",
+      "variation": ""
+    },
+    {
+      "dice": 94,
+      "attribute": "Transmuter",
+      "variation": ""
+    },
+    {
+      "dice": 95,
+      "attribute": "Traveller",
+      "variation": ""
+    },
+    {
+      "dice": 96,
+      "attribute": "Warrior",
+      "variation": ""
+    },
+    {
+      "dice": 97,
+      "attribute": "Wench",
+      "variation": ""
+    },
+    {
+      "dice": 98,
+      "attribute": "Witch",
+      "variation": ""
+    },
+    {
+      "dice": 99,
+      "attribute": "Wizard",
+      "variation": ""
+    },
+    {
+      "dice": 100,
+      "attribute": "Woodsman",
+      "variation": ""
+    }
+  ]

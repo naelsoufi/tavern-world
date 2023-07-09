@@ -1,0 +1,402 @@
+[
+    {
+      "dice": 1,
+      "attribute": "Ankheg"
+    },
+    {
+      "dice": 2,
+      "attribute": "Badger"
+    },
+    {
+      "dice": 3,
+      "attribute": "Banshee"
+    },
+    {
+      "dice": 4,
+      "attribute": "Basilisk"
+    },
+    {
+      "dice": 5,
+      "attribute": "Beetle"
+    },
+    {
+      "dice": 6,
+      "attribute": "Behir"
+    },
+    {
+      "dice": 7,
+      "attribute": "Boar"
+    },
+    {
+      "dice": 8,
+      "attribute": "Bugbear"
+    },
+    {
+      "dice": 9,
+      "attribute": "Bunyip"
+    },
+    {
+      "dice": 10,
+      "attribute": "Cat"
+    },
+    {
+      "dice": 11,
+      "attribute": "Centaur"
+    },
+    {
+      "dice": 12,
+      "attribute": "Chimera"
+    },
+    {
+      "dice": 13,
+      "attribute": "Cobra"
+    },
+    {
+      "dice": 14,
+      "attribute": "Cockatrice"
+    },
+    {
+      "dice": 15,
+      "attribute": "Cockroach"
+    },
+    {
+      "dice": 16,
+      "attribute": "Crow"
+    },
+    {
+      "dice": 17,
+      "attribute": "Cyclops"
+    },
+    {
+      "dice": 18,
+      "attribute": "Derro"
+    },
+    {
+      "dice": 19,
+      "attribute": "Devil"
+    },
+    {
+      "dice": 20,
+      "attribute": "Dolphin"
+    },
+    {
+      "dice": 21,
+      "attribute": "Dog"
+    },
+    {
+      "dice": 22,
+      "attribute": "Dragon"
+    },
+    {
+      "dice": 23,
+      "attribute": "Drake"
+    },
+    {
+      "dice": 24,
+      "attribute": "Dryad"
+    },
+    {
+      "dice": 25,
+      "attribute": "Duck"
+    },
+    {
+      "dice": 26,
+      "attribute": "Eagle"
+    },
+    {
+      "dice": 27,
+      "attribute": "Ettercap"
+    },
+    {
+      "dice": 28,
+      "attribute": "Ettin"
+    },
+    {
+      "dice": 29,
+      "attribute": "Falcon"
+    },
+    {
+      "dice": 30,
+      "attribute": "Familiar"
+    },
+    {
+      "dice": 31,
+      "attribute": "Fish"
+    },
+    {
+      "dice": 32,
+      "attribute": "Gargoyle"
+    },
+    {
+      "dice": 33,
+      "attribute": "Genie"
+    },
+    {
+      "dice": 34,
+      "attribute": "Ghost"
+    },
+    {
+      "dice": 35,
+      "attribute": "Giant"
+    },
+    {
+      "dice": 36,
+      "attribute": "Gnoll"
+    },
+    {
+      "dice": 37,
+      "attribute": "Goblin"
+    },
+    {
+      "dice": 38,
+      "attribute": "Golem"
+    },
+    {
+      "dice": 39,
+      "attribute": "Griffon"
+    },
+    {
+      "dice": 40,
+      "attribute": "Grig"
+    },
+    {
+      "dice": 41,
+      "attribute": "Grindylow"
+    },
+    {
+      "dice": 42,
+      "attribute": "Gremlin"
+    },
+    {
+      "dice": 43,
+      "attribute": "Hag"
+    },
+    {
+      "dice": 44,
+      "attribute": "Harpy"
+    },
+    {
+      "dice": 45,
+      "attribute": "Hippogriff"
+    },
+    {
+      "dice": 46,
+      "attribute": "Hobgoblin"
+    },
+    {
+      "dice": 47,
+      "attribute": "Horse"
+    },
+    {
+      "dice": 48,
+      "attribute": "Homunculus"
+    },
+    {
+      "dice": 49,
+      "attribute": "Hydra"
+    },
+    {
+      "dice": 50,
+      "attribute": "Imp"
+    },
+    {
+      "dice": 51,
+      "attribute": "Jabberwock"
+    },
+    {
+      "dice": 52,
+      "attribute": "Kobold"
+    },
+    {
+      "dice": 53,
+      "attribute": "Kraken"
+    },
+    {
+      "dice": 54,
+      "attribute": "Leprechaun"
+    },
+    {
+      "dice": 55,
+      "attribute": "Lich"
+    },
+    {
+      "dice": 56,
+      "attribute": "Linnorm"
+    },
+    {
+      "dice": 57,
+      "attribute": "Lion"
+    },
+    {
+      "dice": 58,
+      "attribute": "Lizard"
+    },
+    {
+      "dice": 59,
+      "attribute": "Manticore"
+    },
+    {
+      "dice": 60,
+      "attribute": "Medusa"
+    },
+    {
+      "dice": 61,
+      "attribute": "Mermaid"
+    },
+    {
+      "dice": 62,
+      "attribute": "Minotaur"
+    },
+    {
+      "dice": 63,
+      "attribute": "Naga"
+    },
+    {
+      "dice": 64,
+      "attribute": "Nymph"
+    },
+    {
+      "dice": 65,
+      "attribute": "Ogre"
+    },
+    {
+      "dice": 66,
+      "attribute": "Orc"
+    },
+    {
+      "dice": 67,
+      "attribute": "Owl"
+    },
+    {
+      "dice": 68,
+      "attribute": "Otyugh"
+    },
+    {
+      "dice": 69,
+      "attribute": "Owlbear"
+    },
+    {
+      "dice": 70,
+      "attribute": "Peacock"
+    },
+    {
+      "dice": 71,
+      "attribute": "Phoenix"
+    },
+    {
+      "dice": 72,
+      "attribute": "Pixie"
+    },
+    {
+      "dice": 73,
+      "attribute": "Pony"
+    },
+    {
+      "dice": 74,
+      "attribute": "Rakshasa"
+    },
+    {
+      "dice": 75,
+      "attribute": "Rat"
+    },
+    {
+      "dice": 76,
+      "attribute": "Roper"
+    },
+    {
+      "dice": 77,
+      "attribute": "Sahuagin"
+    },
+    {
+      "dice": 78,
+      "attribute": "Salamander"
+    },
+    {
+      "dice": 79,
+      "attribute": "Satyr"
+    },
+    {
+      "dice": 80,
+      "attribute": "Scorpion"
+    },
+    {
+      "dice": 81,
+      "attribute": "Serpent"
+    },
+    {
+      "dice": 82,
+      "attribute": "Siren"
+    },
+    {
+      "dice": 83,
+      "attribute": "Spectre"
+    },
+    {
+      "dice": 84,
+      "attribute": "Sphinx"
+    },
+    {
+      "dice": 85,
+      "attribute": "Spider"
+    },
+    {
+      "dice": 86,
+      "attribute": "Spriggan"
+    },
+    {
+      "dice": 87,
+      "attribute": "Snake"
+    },
+    {
+      "dice": 88,
+      "attribute": "Stingray"
+    },
+    {
+      "dice": 89,
+      "attribute": "Stirge"
+    },
+    {
+      "dice": 90,
+      "attribute": "Sylph"
+    },
+    {
+      "dice": 91,
+      "attribute": "Tengu"
+    },
+    {
+      "dice": 92,
+      "attribute": "Titan"
+    },
+    {
+      "dice": 93,
+      "attribute": "Toad"
+    },
+    {
+      "dice": 94,
+      "attribute": "Treant"
+    },
+    {
+      "dice": 95,
+      "attribute": "Triton"
+    },
+    {
+      "dice": 96,
+      "attribute": "Troll"
+    },
+    {
+      "dice": 97,
+      "attribute": "Turtle"
+    },
+    {
+      "dice": 98,
+      "attribute": "Unicorn"
+    },
+    {
+      "dice": 99,
+      "attribute": "Worg"
+    },
+    {
+      "dice": 100,
+      "attribute": "Wyvern"
+    }
+  ]

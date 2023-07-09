@@ -1,0 +1,402 @@
+[
+    {
+      "dice": 1,
+      "attribute": "Ancient"
+    },
+    {
+      "dice": 2,
+      "attribute": "Bane"
+    },
+    {
+      "dice": 3,
+      "attribute": "Banquet"
+    },
+    {
+      "dice": 4,
+      "attribute": "Bite"
+    },
+    {
+      "dice": 5,
+      "attribute": "Bless"
+    },
+    {
+      "dice": 6,
+      "attribute": "Breath"
+    },
+    {
+      "dice": 7,
+      "attribute": "Brew"
+    },
+    {
+      "dice": 8,
+      "attribute": "Brood"
+    },
+    {
+      "dice": 9,
+      "attribute": "Call"
+    },
+    {
+      "dice": 10,
+      "attribute": "Caress"
+    },
+    {
+      "dice": 11,
+      "attribute": "Choice"
+    },
+    {
+      "dice": 12,
+      "attribute": "Cold"
+    },
+    {
+      "dice": 13,
+      "attribute": "Courage"
+    },
+    {
+      "dice": 14,
+      "attribute": "Crazed"
+    },
+    {
+      "dice": 15,
+      "attribute": "Curse"
+    },
+    {
+      "dice": 16,
+      "attribute": "Dance"
+    },
+    {
+      "dice": 17,
+      "attribute": "Dark"
+    },
+    {
+      "dice": 18,
+      "attribute": "Deadly"
+    },
+    {
+      "dice": 19,
+      "attribute": "Death"
+    },
+    {
+      "dice": 20,
+      "attribute": "Deep"
+    },
+    {
+      "dice": 21,
+      "attribute": "Delve"
+    },
+    {
+      "dice": 22,
+      "attribute": "Depths"
+    },
+    {
+      "dice": 23,
+      "attribute": "Desire"
+    },
+    {
+      "dice": 24,
+      "attribute": "Dream"
+    },
+    {
+      "dice": 25,
+      "attribute": "Embrace"
+    },
+    {
+      "dice": 26,
+      "attribute": "End"
+    },
+    {
+      "dice": 27,
+      "attribute": "Fate"
+    },
+    {
+      "dice": 28,
+      "attribute": "Fiery"
+    },
+    {
+      "dice": 29,
+      "attribute": "Flourish"
+    },
+    {
+      "dice": 30,
+      "attribute": "Fog"
+    },
+    {
+      "dice": 31,
+      "attribute": "Folly"
+    },
+    {
+      "dice": 32,
+      "attribute": "Fool"
+    },
+    {
+      "dice": 33,
+      "attribute": "Gambit"
+    },
+    {
+      "dice": 34,
+      "attribute": "Gamble"
+    },
+    {
+      "dice": 35,
+      "attribute": "Gasp"
+    },
+    {
+      "dice": 36,
+      "attribute": "Gaze"
+    },
+    {
+      "dice": 37,
+      "attribute": "Gift"
+    },
+    {
+      "dice": 38,
+      "attribute": "Glory"
+    },
+    {
+      "dice": 39,
+      "attribute": "Grace"
+    },
+    {
+      "dice": 40,
+      "attribute": "Grasp"
+    },
+    {
+      "dice": 41,
+      "attribute": "Grip"
+    },
+    {
+      "dice": 42,
+      "attribute": "Haunt"
+    },
+    {
+      "dice": 43,
+      "attribute": "Holiday"
+    },
+    {
+      "dice": 44,
+      "attribute": "Honour"
+    },
+    {
+      "dice": 45,
+      "attribute": "Hope"
+    },
+    {
+      "dice": 46,
+      "attribute": "Howl"
+    },
+    {
+      "dice": 47,
+      "attribute": "Hunt"
+    },
+    {
+      "dice": 48,
+      "attribute": "Ire"
+    },
+    {
+      "dice": 49,
+      "attribute": "Jest"
+    },
+    {
+      "dice": 50,
+      "attribute": "Kiss"
+    },
+    {
+      "dice": 51,
+      "attribute": "Laugh"
+    },
+    {
+      "dice": 52,
+      "attribute": "Leap"
+    },
+    {
+      "dice": 53,
+      "attribute": "Lost"
+    },
+    {
+      "dice": 54,
+      "attribute": "Love"
+    },
+    {
+      "dice": 55,
+      "attribute": "Luck"
+    },
+    {
+      "dice": 56,
+      "attribute": "Mad"
+    },
+    {
+      "dice": 57,
+      "attribute": "Masquerade"
+    },
+    {
+      "dice": 58,
+      "attribute": "Menagerie"
+    },
+    {
+      "dice": 59,
+      "attribute": "Mercy"
+    },
+    {
+      "dice": 60,
+      "attribute": "Miracle"
+    },
+    {
+      "dice": 61,
+      "attribute": "Misplaced"
+    },
+    {
+      "dice": 62,
+      "attribute": "Nightmare"
+    },
+    {
+      "dice": 63,
+      "attribute": "Oath"
+    },
+    {
+      "dice": 64,
+      "attribute": "Path"
+    },
+    {
+      "dice": 65,
+      "attribute": "Plague"
+    },
+    {
+      "dice": 66,
+      "attribute": "Prayer"
+    },
+    {
+      "dice": 67,
+      "attribute": "Pride"
+    },
+    {
+      "dice": 68,
+      "attribute": "Promise"
+    },
+    {
+      "dice": 69,
+      "attribute": "Quest"
+    },
+    {
+      "dice": 70,
+      "attribute": "Rage"
+    },
+    {
+      "dice": 71,
+      "attribute": "Rampage"
+    },
+    {
+      "dice": 72,
+      "attribute": "Rest"
+    },
+    {
+      "dice": 73,
+      "attribute": "Revenge"
+    },
+    {
+      "dice": 74,
+      "attribute": "Rhyme"
+    },
+    {
+      "dice": 75,
+      "attribute": "Roost"
+    },
+    {
+      "dice": 76,
+      "attribute": "Scream"
+    },
+    {
+      "dice": 77,
+      "attribute": "Shadow"
+    },
+    {
+      "dice": 78,
+      "attribute": "Shining"
+    },
+    {
+      "dice": 79,
+      "attribute": "Slumber"
+    },
+    {
+      "dice": 80,
+      "attribute": "Smile"
+    },
+    {
+      "dice": 81,
+      "attribute": "Song"
+    },
+    {
+      "dice": 82,
+      "attribute": "Sorrow"
+    },
+    {
+      "dice": 83,
+      "attribute": "Soul"
+    },
+    {
+      "dice": 84,
+      "attribute": "Spirit"
+    },
+    {
+      "dice": 85,
+      "attribute": "Sting"
+    },
+    {
+      "dice": 86,
+      "attribute": "Storm"
+    },
+    {
+      "dice": 87,
+      "attribute": "Strike"
+    },
+    {
+      "dice": 88,
+      "attribute": "Stupid"
+    },
+    {
+      "dice": 89,
+      "attribute": "Surprise"
+    },
+    {
+      "dice": 90,
+      "attribute": "Terror"
+    },
+    {
+      "dice": 91,
+      "attribute": "Triumph"
+    },
+    {
+      "dice": 92,
+      "attribute": "Vengeance"
+    },
+    {
+      "dice": 93,
+      "attribute": "Venture"
+    },
+    {
+      "dice": 94,
+      "attribute": "Wail"
+    },
+    {
+      "dice": 95,
+      "attribute": "Walk"
+    },
+    {
+      "dice": 96,
+      "attribute": "Way"
+    },
+    {
+      "dice": 97,
+      "attribute": "Whisper"
+    },
+    {
+      "dice": 98,
+      "attribute": "Wish"
+    },
+    {
+      "dice": 99,
+      "attribute": "Wrath"
+    },
+    {
+      "dice": 100,
+      "attribute": "Young"
+    }
+  ]
