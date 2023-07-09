@@ -11,6 +11,7 @@
     <body>
         <h1>Generate your world</h1>
         <h2>{{ tavern.name }}</h2>
-        <p>Owner : <a href="{{ url_for('npc_page', npc_name=tavern.owner['name'], npc_gender=tavern.owner['gender']) }}">{{ tavern.owner['name'] }}</a></p>
+        <!-- We pass in the parameters the name of the NPC for the page and the npc id to find him -->
+        <p>Owner : <a href="{{ url_for('npc_page', npc_name=tavern.owner['name'], npc_id=owner_id) }}">{{ tavern.owner['name'] }}</a></p>
     </body>
 </html>
