@@ -1,402 +1,302 @@
 [
     {
-      "dice": 1,
       "attribute": "Amorous"
     },
     {
-      "dice": 2,
       "attribute": "Angry"
     },
     {
-      "dice": 3,
       "attribute": "Arrogant"
     },
     {
-      "dice": 4,
       "attribute": "Bashful"
     },
     {
-      "dice": 5,
       "attribute": "Bawdy"
     },
     {
-      "dice": 6,
       "attribute": "Black"
     },
     {
-      "dice": 7,
       "attribute": "Blue"
     },
     {
-      "dice": 8,
       "attribute": "Brass"
     },
     {
-      "dice": 9,
       "attribute": "Brave"
     },
     {
-      "dice": 10,
       "attribute": "Broken"
     },
     {
-      "dice": 11,
       "attribute": "Brown"
     },
     {
-      "dice": 12,
       "attribute": "Bronze"
     },
     {
-      "dice": 13,
       "attribute": "Burning/Burnt"
     },
     {
-      "dice": 14,
       "attribute": "Chanting"
     },
     {
-      "dice": 15,
       "attribute": "Chaste"
     },
     {
-      "dice": 16,
       "attribute": "Choking"
     },
     {
-      "dice": 17,
       "attribute": "Clever"
     },
     {
-      "dice": 18,
       "attribute": "Copper"
     },
     {
-      "dice": 19,
       "attribute": "Courageous"
     },
     {
-      "dice": 20,
       "attribute": "Comely"
     },
     {
-      "dice": 21,
       "attribute": "Cowardly"
     },
     {
-      "dice": 22,
       "attribute": "Creeping"
     },
     {
-      "dice": 23,
       "attribute": "Crooked"
     },
     {
-      "dice": 24,
       "attribute": "Dancing"
     },
     {
-      "dice": 25,
       "attribute": "Dreaming"
     },
     {
-      "dice": 26,
       "attribute": "Drunken"
     },
     {
-      "dice": 27,
       "attribute": "Dull"
     },
     {
-      "dice": 28,
       "attribute": "Empty"
     },
     {
-      "dice": 29,
       "attribute": "Flaming"
     },
     {
-      "dice": 30,
       "attribute": "Flying"
     },
     {
-      "dice": 31,
       "attribute": "Frozen"
     },
     {
-      "dice": 32,
       "attribute": "Graceful"
     },
     {
-      "dice": 33,
       "attribute": "Gasping"
     },
     {
-      "dice": 34,
       "attribute": "Golden"
     },
     {
-      "dice": 35,
       "attribute": "Grasping"
     },
     {
-      "dice": 36,
       "attribute": "Green"
     },
     {
-      "dice": 37,
       "attribute": "Grey"
     },
     {
-      "dice": 38,
       "attribute": "Grinning"
     },
     {
-      "dice": 39,
       "attribute": "Hairy"
     },
     {
-      "dice": 40,
       "attribute": "Happy"
     },
     {
-      "dice": 41,
       "attribute": "Homely"
     },
     {
-      "dice": 42,
       "attribute": "Honest"
     },
     {
-      "dice": 43,
       "attribute": "Honorable"
     },
     {
-      "dice": 44,
       "attribute": "Hopping"
     },
     {
-      "dice": 45,
       "attribute": "Hungry"
     },
     {
-      "dice": 46,
       "attribute": "Haunted"
     },
     {
-      "dice": 47,
       "attribute": "Insufferable"
     },
     {
-      "dice": 48,
       "attribute": "Jealous"
     },
     {
-      "dice": 49,
       "attribute": "Jumping"
     },
     {
-      "dice": 50,
       "attribute": "Laughing"
     },
     {
-      "dice": 51,
       "attribute": "Last"
     },
     {
-      "dice": 52,
       "attribute": "Lazy"
     },
     {
-      "dice": 53,
       "attribute": "Leaky"
     },
     {
-      "dice": 54,
       "attribute": "Leaning"
     },
     {
-      "dice": 55,
       "attribute": "Leaping"
     },
     {
-      "dice": 56,
       "attribute": "Leering"
     },
     {
-      "dice": 57,
       "attribute": "Lonely"
     },
     {
-      "dice": 58,
       "attribute": "Lucky"
     },
     {
-      "dice": 59,
       "attribute": "Lusty/Lustful"
     },
     {
-      "dice": 60,
       "attribute": "Mad"
     },
     {
-      "dice": 61,
       "attribute": "Modest"
     },
     {
-      "dice": 62,
       "attribute": "Mystic"
     },
     {
-      "dice": 63,
       "attribute": "Oily"
     },
     {
-      "dice": 64,
       "attribute": "Passionate"
     },
     {
-      "dice": 65,
       "attribute": "Patient"
     },
     {
-      "dice": 66,
       "attribute": "Platinum"
     },
     {
-      "dice": 67,
       "attribute": "Pompous"
     },
     {
-      "dice": 68,
       "attribute": "Prancing"
     },
     {
-      "dice": 69,
       "attribute": "Proud"
     },
     {
-      "dice": 70,
       "attribute": "Purple"
     },
     {
-      "dice": 71,
       "attribute": "Raging"
     },
     {
-      "dice": 72,
       "attribute": "Randy"
     },
     {
-      "dice": 73,
       "attribute": "Red"
     },
     {
-      "dice": 74,
       "attribute": "Rusty"
     },
     {
-      "dice": 75,
       "attribute": "Salty"
     },
     {
-      "dice": 76,
       "attribute": "Saucy"
     },
     {
-      "dice": 77,
       "attribute": "Scarlet"
     },
     {
-      "dice": 78,
       "attribute": "Silent"
     },
     {
-      "dice": 79,
       "attribute": "Silver"
     },
     {
-      "dice": 80,
       "attribute": "Singing"
     },
     {
-      "dice": 81,
       "attribute": "Sinking"
     },
     {
-      "dice": 82,
       "attribute": "Sleeping/Sleepy"
     },
     {
-      "dice": 83,
       "attribute": "Slippery"
     },
     {
-      "dice": 84,
       "attribute": "Smiling"
     },
     {
-      "dice": 85,
       "attribute": "Squinting"
     },
     {
-      "dice": 86,
       "attribute": "Stone"
     },
     {
-      "dice": 87,
       "attribute": "Thirsty"
     },
     {
-      "dice": 88,
       "attribute": "Thundering"
     },
     {
-      "dice": 89,
       "attribute": "Toothless"
     },
     {
-      "dice": 90,
       "attribute": "Treacherous"
     },
     {
-      "dice": 91,
       "attribute": "Tricky"
     },
     {
-      "dice": 92,
       "attribute": "Valorous"
     },
     {
-      "dice": 93,
       "attribute": "Vengeful"
     },
     {
-      "dice": 94,
       "attribute": "Vulgar"
     },
     {
-      "dice": 95,
       "attribute": "Wandering"
     },
     {
-      "dice": 96,
       "attribute": "Weeping"
     },
     {
-      "dice": 97,
       "attribute": "White"
     },
     {
-      "dice": 98,
       "attribute": "Wonton"
     },
     {
-      "dice": 99,
       "attribute": "Wounded"
     },
     {
-      "dice": 100,
       "attribute": "Yellow"
     }
   ]

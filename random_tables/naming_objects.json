@@ -1,501 +1,401 @@
 [
     {
-      "dice": 1,
       "attribute": "Arrow",
       "variation": ""
     },
     {
-      "dice": 2,
       "attribute": "Amulet",
       "variation": ""
     },
     {
-      "dice": 3,
       "attribute": "Axe",
       "variation": ""
     },
     {
-      "dice": 4,
       "attribute": "Barrel",
       "variation": ""
     },
     {
-      "dice": 5,
       "attribute": "Beard",
       "variation": ""
     },
     {
-      "dice": 6,
       "attribute": "Bell",
       "variation": ""
     },
     {
-      "dice": 7,
       "attribute": "Blade",
       "variation": ""
     },
     {
-      "dice": 8,
       "attribute": "Blood",
       "variation": ""
     },
     {
-      "dice": 9,
       "attribute": "Bolt",
       "variation": ""
     },
     {
-      "dice": 10,
       "attribute": "Bone",
       "variation": ""
     },
     {
-      "dice": 11,
       "attribute": "Book",
       "variation": ""
     },
     {
-      "dice": 12,
       "attribute": "Bottle",
       "variation": ""
     },
     {
-      "dice": 13,
       "attribute": "Bridge",
       "variation": ""
     },
     {
-      "dice": 14,
       "attribute": "Bucket",
       "variation": ""
     },
     {
-      "dice": 15,
       "attribute": "Carriage",
       "variation": ""
     },
     {
-      "dice": 16,
       "attribute": "Castle",
       "variation": ""
     },
     {
-      "dice": 17,
       "attribute": "Cauldron",
       "variation": ""
     },
     {
-      "dice": 18,
       "attribute": "Candle",
       "variation": "Candlestick"
     },
     {
-      "dice": 19,
       "attribute": "Chain",
       "variation": ""
     },
     {
-      "dice": 20,
       "attribute": "Chalice",
       "variation": ""
     },
     {
-      "dice": 21,
       "attribute": "Claw",
       "variation": ""
     },
     {
-      "dice": 22,
       "attribute": "Club",
       "variation": ""
     },
     {
-      "dice": 23,
       "attribute": "Crossbow",
       "variation": ""
     },
     {
-      "dice": 24,
       "attribute": "Crown",
       "variation": ""
     },
     {
-      "dice": 25,
       "attribute": "Crust",
       "variation": ""
     },
     {
-      "dice": 26,
       "attribute": "Cup",
       "variation": ""
     },
     {
-      "dice": 27,
       "attribute": "Dagger",
       "variation": ""
     },
     {
-      "dice": 28,
       "attribute": "Drum",
       "variation": ""
     },
     {
-      "dice": 29,
       "attribute": "Elixir",
       "variation": ""
     },
     {
-      "dice": 30,
       "attribute": "Fang",
       "variation": ""
     },
     {
-      "dice": 31,
       "attribute": "Feather",
       "variation": ""
     },
     {
-      "dice": 32,
       "attribute": "Fiddle",
       "variation": ""
     },
     {
-      "dice": 33,
       "attribute": "Flame",
       "variation": ""
     },
     {
-      "dice": 34,
       "attribute": "Flagon",
       "variation": ""
     },
     {
-      "dice": 35,
       "attribute": "Flask",
       "variation": ""
     },
     {
-      "dice": 36,
       "attribute": "Gauntlet",
       "variation": ""
     },
     {
-      "dice": 37,
       "attribute": "Gem",
       "variation": ""
     },
     {
-      "dice": 38,
       "attribute": "Goblet",
       "variation": ""
     },
     {
-      "dice": 39,
       "attribute": "Grape",
       "variation": ""
     },
     {
-      "dice": 40,
       "attribute": "Guillotine",
       "variation": ""
     },
     {
-      "dice": 41,
       "attribute": "Hammer",
       "variation": ""
     },
     {
-      "dice": 42,
       "attribute": "Hand",
       "variation": ""
     },
     {
-      "dice": 43,
       "attribute": "Harp",
       "variation": ""
     },
     {
-      "dice": 44,
       "attribute": "Head",
       "variation": ""
     },
     {
-      "dice": 45,
       "attribute": "Helm",
       "variation": ""
     },
     {
-      "dice": 46,
       "attribute": "Home",
       "variation": ""
     },
     {
-      "dice": 47,
       "attribute": "Hoof",
       "variation": ""
     },
     {
-      "dice": 48,
       "attribute": "Hook",
       "variation": ""
     },
     {
-      "dice": 49,
       "attribute": "Horn",
       "variation": ""
     },
     {
-      "dice": 50,
       "attribute": "Hourglass",
       "variation": ""
     },
     {
-      "dice": 51,
       "attribute": "Idol",
       "variation": ""
     },
     {
-      "dice": 52,
       "attribute": "Jug",
       "variation": ""
     },
     {
-      "dice": 53,
       "attribute": "Ink Well",
       "variation": ""
     },
     {
-      "dice": 54,
       "attribute": "Kettle",
       "variation": ""
     },
     {
-      "dice": 55,
       "attribute": "Key",
       "variation": ""
     },
     {
-      "dice": 56,
       "attribute": "Lantern",
       "variation": ""
     },
     {
-      "dice": 57,
       "attribute": "Lute",
       "variation": ""
     },
     {
-      "dice": 58,
       "attribute": "Lyre",
       "variation": ""
     },
     {
-      "dice": 59,
       "attribute": "Mask",
       "variation": ""
     },
     {
-      "dice": 60,
       "attribute": "Moon",
       "variation": ""
     },
     {
-      "dice": 61,
       "attribute": "Mug",
       "variation": ""
     },
     {
-      "dice": 62,
       "attribute": "Noose",
       "variation": ""
     },
     {
-      "dice": 63,
       "attribute": "Oak",
       "variation": ""
     },
     {
-      "dice": 64,
       "attribute": "Pick",
       "variation": ""
     },
     {
-      "dice": 65,
       "attribute": "Plough",
       "variation": ""
     },
     {
-      "dice": 66,
       "attribute": "Prince",
       "variation": ""
     },
     {
-      "dice": 67,
       "attribute": "Quill",
       "variation": ""
     },
     {
-      "dice": 68,
       "attribute": "Quiver",
       "variation": ""
     },
     {
-      "dice": 69,
       "attribute": "Rock",
       "variation": ""
     },
     {
-      "dice": 70,
       "attribute": "Rose",
       "variation": ""
     },
     {
-      "dice": 71,
       "attribute": "Scabbard",
       "variation": ""
     },
     {
-      "dice": 72,
       "attribute": "Scarecrow",
       "variation": ""
     },
     {
-      "dice": 73,
       "attribute": "Scimitar",
       "variation": ""
     },
     {
-      "dice": 74,
       "attribute": "Scroll",
       "variation": ""
     },
     {
-      "dice": 75,
       "attribute": "Shackles",
       "variation": ""
     },
     {
-      "dice": 76,
       "attribute": "Shield",
       "variation": ""
     },
     {
-      "dice": 77,
       "attribute": "Shovel",
       "variation": ""
     },
     {
-      "dice": 78,
       "attribute": "Skull",
       "variation": ""
     },
     {
-      "dice": 79,
       "attribute": "Spear",
       "variation": ""
     },
     {
-      "dice": 80,
       "attribute": "Staff",
       "variation": ""
     },
     {
-      "dice": 81,
       "attribute": "Star",
       "variation": ""
     },
     {
-      "dice": 82,
       "attribute": "Still",
       "variation": ""
     },
     {
-      "dice": 83,
       "attribute": "Stone",
       "variation": ""
     },
     {
-      "dice": 84,
       "attribute": "Sun",
       "variation": ""
     },
     {
-      "dice": 85,
       "attribute": "Tabard",
       "variation": ""
     },
     {
-      "dice": 86,
       "attribute": "Tail",
       "variation": ""
     },
     {
-      "dice": 87,
       "attribute": "Talisman",
       "variation": ""
     },
     {
-      "dice": 88,
       "attribute": "Tankard",
       "variation": ""
     },
     {
-      "dice": 89,
       "attribute": "Throne",
       "variation": ""
     },
     {
-      "dice": 90,
       "attribute": "Tome",
       "variation": ""
     },
     {
-      "dice": 91,
       "attribute": "Tooth",
       "variation": ""
     },
     {
-      "dice": 92,
       "attribute": "Torch",
       "variation": ""
     },
     {
-      "dice": 93,
       "attribute": "Tower",
       "variation": ""
     },
     {
-      "dice": 94,
       "attribute": "Trident",
       "variation": ""
     },
     {
-      "dice": 95,
       "attribute": "Trowel",
       "variation": ""
     },
     {
-      "dice": 96,
       "attribute": "Wand",
       "variation": ""
     },
     {
-      "dice": 97,
       "attribute": "Wave",
       "variation": ""
     },
     {
-      "dice": 98,
       "attribute": "Whistle",
       "variation": ""
     },
     {
-      "dice": 99,
       "attribute": "Wheel",
       "variation": ""
     },
     {
-      "dice": 100,
       "attribute": "Whip",
       "variation": ""
     }
