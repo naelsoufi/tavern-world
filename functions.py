@@ -2,6 +2,9 @@
 from random import choice, randint
 import json
 
+'''
+RESOURCES LOADING
+'''
 # Tables to generate a name
 with open('random_tables/naming_creatures.json', 'r') as creatures:
     creature_naming_table = json.load(creatures)
@@ -18,7 +21,21 @@ with open('random_tables/naming_creatures.json', 'r') as others:
 with open('random_tables/naming_creatures.json', 'r') as people:
     people_naming_table = json.load(people)
     
-### NAMING FUNCTIONS ###
+'''
+GLOBAL FUNCTIONS
+'''
+def fetch_element_by_id(graph, id):
+    # Fetch the element based on the id and reset the query
+    query = "MATCH (n) WHERE ID(n)={id} RETURN n".format(npc_id=id)
+    records = graph.run(query)
+    query = None
+        
+    # Extract data from the records. Here it's a dictionary and each row could contain one full node, hence the 'n'
+    record = records.data()
+    database_infos = record[0]['n']
+    return database_infos
+
+### NAMING FUNCTIONS
 def roll_description_table():
     dice = randint(1,100)
     description = description_naming_table[dice]

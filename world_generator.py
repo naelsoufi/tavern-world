@@ -38,17 +38,11 @@ def hello_world():
 
 @app.route('/npc/<npc_name>')
 def npc_page(npc_name):
-    # Fetch the NPC based on the id
-    query = "MATCH (npc:NPC) WHERE ID(npc)={npc_id} RETURN npc".format(npc_id=request.args.get('npc_id'))
-    npc_records = graph.run(query)
-    query = None
-    
-    # Extract data from the query. Here it's a dictionary and each row could contain one full node, hence the 'npc'
-    npc_record = npc_records.data()
-    npc_database_infos = npc_record[0]['npc']
+    npc_id = request.args.get('npc_id')
+    npc_database_infos = f.fetch_element_by_id(graph, npc_id)
 
     # Generate the NPC object with the infos we already have
-    # Note that we will need at some point find a process to know if the npc is fully fledged or not
+    # Note that we will need at some point find a process to know if the npc is new, fully fledged or incomplete
     # Could have a literal NPC level of rendering going from 0 to maybe 3
     npc = classes.Npc(npc_database_infos['name'], npc_database_infos['gender'])
 
