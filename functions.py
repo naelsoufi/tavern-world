@@ -26,7 +26,7 @@ GLOBAL FUNCTIONS
 '''
 def fetch_element_by_id(graph, id):
     # Fetch the element based on the id and reset the query
-    query = "MATCH (n) WHERE ID(n)={id} RETURN n".format(npc_id=id)
+    query = "MATCH (n) WHERE ID(n)={id} RETURN n".format(id=id)
     records = graph.run(query)
     query = None
         

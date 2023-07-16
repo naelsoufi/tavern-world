@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 from py2neo import Graph
 import classes
+from functions import fetch_element_by_id
 
 # Setting up the app
 app = Flask(__name__)
@@ -39,7 +40,7 @@ def hello_world():
 @app.route('/npc/<npc_name>')
 def npc_page(npc_name):
     npc_id = request.args.get('npc_id')
-    npc_database_infos = f.fetch_element_by_id(graph, npc_id)
+    npc_database_infos = fetch_element_by_id(graph, npc_id)
 
     # Generate the NPC object with the infos we already have
     # Note that we will need at some point find a process to know if the npc is new, fully fledged or incomplete
