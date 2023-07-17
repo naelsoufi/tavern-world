@@ -37,31 +37,31 @@ def fetch_element_by_id(graph, id):
 
 ### NAMING FUNCTIONS
 def roll_description_table():
-    dice = randint(1,100)
+    dice = randint(0,99)
     description = description_naming_table[dice]
     description = description["attribute"]
     return description
 
 def roll_creature_table():
-    dice = randint(1,100)
+    dice = randint(0,99)
     creature = creature_naming_table[dice]
     creature = creature["attribute"]
     return creature
 
 def roll_object_table():
-    dice = randint(1,100)
+    dice = randint(0,99)
     object = object_naming_table[dice]
     object = object["attribute"]
     return object
 
 def roll_people_table():
-    dice = randint(1,100)
+    dice = randint(0,99)
     people = people_naming_table[dice]
     people = people["attribute"]
     return people
 
 def roll_other_table():
-    dice = randint(1,100)
+    dice = randint(0,99)
     other = other_naming_table[dice]
     other = other["attribute"]
     return other
@@ -148,3 +148,18 @@ def generate_tavern_name():
             second_part_name = roll_random_subject(dice)
             tavern_name = f"The {first_part_name} & the {second_part_name}"
             return tavern_name
+
+def generate_tavern_size():
+    # Unpack the table
+    with open('random_tables/tavern_size.json', 'r') as sizes:
+        tavern_size_table = json.load(sizes)
+
+    # Pick the good dice and roll it
+    MAX_DICE = len(tavern_size_table)-1
+    dice = randint(0,MAX_DICE)
+
+    # Roll it on the table
+    tavern_size = tavern_size_table[dice]
+    tavern_size = tavern_size["attribute"]
+    
+    return tavern_size

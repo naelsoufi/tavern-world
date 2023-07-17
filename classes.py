@@ -3,7 +3,7 @@ import functions as f
 class Tavern:
     def __init__(self):
         self.name = f.generate_tavern_name()
-        self.owner = f.generate_bare_bone_npc()       
+        self.owner = f.generate_bare_bone_npc()
         
 class Npc:
     def __init__(self, name, gender):

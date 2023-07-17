@@ -7,11 +7,16 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="{{ url_for('static', filename='tavern_level_two.js') }}"></script>
     </head>
     <body>
         <h1>Generate your world</h1>
         <h2>{{ tavern.name }}</h2>
         <!-- We pass in the parameters the name of the NPC for the page and the npc id to find him -->
         <p>Owner : <a href="{{ url_for('npc_page', npc_name=tavern.owner['name'], npc_id=owner_id) }}">{{ tavern.owner['name'] }}</a></p>
+        
+        <div id="level-two-information"></div>
+        <button id="get-level-two-information" data-tavern-id="{{ tavern_id }}">More infos</button>
     </body>
 </html>

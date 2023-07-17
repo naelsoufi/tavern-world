@@ -1,7 +1,7 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, jsonify
 from py2neo import Graph
 import classes
-from functions import fetch_element_by_id
+from functions import fetch_element_by_id, generate_tavern_size
 
 # Setting up the app
 app = Flask(__name__)
@@ -35,7 +35,24 @@ def hello_world():
     query = None
 
     # Transfer the building and the owner's id in case user clicks on owner's name
-    return render_template('index.html', tavern=tavern, owner_id=owner_id)
+    return render_template('index.html', tavern=tavern, owner_id=owner_id, tavern_id=tavern_id)
+
+@app.route('/get_tavern_level_two', methods=['POST'])
+def get_tavern_level_two():
+    # Recuperate tavern id
+    data = request.get_json()
+    tavern_id = data.get('tavern_id')
+
+    # Generate the size of the tavern
+    tavern_size = generate_tavern_size()
+
+    # Update the tavern node
+    query = "MATCH (tavern) WHERE ID(tavern)={tavern_id} SET tavern.size = '{tavern_size}'".format(tavern_id=tavern_id, tavern_size=tavern_size)
+    graph.run(query)
+    query = None
+
+    # Return the value as JSON
+    return jsonify({'value': tavern_size})
 
 @app.route('/npc/<npc_name>')
 def npc_page(npc_name):
