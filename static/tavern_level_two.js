@@ -17,8 +17,17 @@ $(document).ready(function() {
         })
         .then(response => response.json())
         .then(data => {
+            // Create a list to append to
+            const ul = document.createElement('ul');
+
+            // Loop through the data and create a line for each item
+            data.value.forEach(item => {
+                const li = document.createElement('li');
+                li.textContent = item;
+                ul.appendChild(li);
+            })
             // Update the value-container div with the returned value
-            $("#level-two-information").text(data.value);
+            $("#level-two-information").append(ul);
         })
         .catch(error => console.log('Error:', error));
     });

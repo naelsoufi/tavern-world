@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, jsonify
 from py2neo import Graph
 import classes
-from functions import fetch_element_by_id, generate_tavern_size
+from functions import fetch_element_by_id, update_element_in_bulk, generate_tavern_level_two, generate_ul_list_of_properties
 
 # Setting up the app
 app = Flask(__name__)
@@ -43,16 +43,23 @@ def get_tavern_level_two():
     data = request.get_json()
     tavern_id = data.get('tavern_id')
 
-    # Generate the size of the tavern
+    # Generate and update the level two
+    tavern_level_two = generate_tavern_level_two()
+    update_element_in_bulk(graph, tavern_id, tavern_level_two)
+
+    # Generate a ul list for the index page
+    tavern_properties = generate_ul_list_of_properties(tavern_level_two)
+    
+    '''# Generate the size of the tavern
     tavern_size = generate_tavern_size()
 
     # Update the tavern node
     query = "MATCH (tavern) WHERE ID(tavern)={tavern_id} SET tavern.size = '{tavern_size}'".format(tavern_id=tavern_id, tavern_size=tavern_size)
     graph.run(query)
-    query = None
+    query = None'''
 
     # Return the value as JSON
-    return jsonify({'value': tavern_size})
+    return jsonify({'value': tavern_properties})
 
 @app.route('/npc/<npc_name>')
 def npc_page(npc_name):

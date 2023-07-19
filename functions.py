@@ -24,6 +24,7 @@ with open('random_tables/naming_creatures.json', 'r') as people:
 '''
 GLOBAL FUNCTIONS
 '''
+# Database interactions
 def fetch_element_by_id(graph, id):
     # Fetch the element based on the id and reset the query
     query = "MATCH (n) WHERE ID(n)={id} RETURN n".format(id=id)
@@ -34,6 +35,43 @@ def fetch_element_by_id(graph, id):
     record = records.data()
     database_infos = record[0]['n']
     return database_infos
+
+def update_element_in_bulk(graph, id, changes):
+    for change in changes:
+        if isinstance(change['value'], str):
+            query = "MATCH (n) WHERE ID(n)={id} SET n.{attribute} = '{value}'".format(id=id, attribute=change['attribute'], value=change['value'])
+            graph.run(query)
+            query = None
+        else:
+            query = "MATCH (n) WHERE ID(n)={id} SET n.{attribute} = {value}".format(id=id, attribute=change['attribute'], value=change['value'])
+            graph.run(query)
+            query = None
+    return
+
+# Tables interactions
+def roll_on_tables(table_path):
+    # Unpack the table
+    with open(table_path, 'r') as file:
+        table = json.load(file)
+
+    # Pick the good dice and roll it
+    MAX_DICE = len(table)-1
+    dice = randint(0,MAX_DICE)
+
+    # Roll it on the table
+    table_result = table[dice]
+    table_result = table_result["attribute"]
+    
+    return table_result
+
+# HTML interactions
+def generate_ul_list_of_properties(data):
+    ul_list = []
+    
+    for row in data:
+        ul_list.append(f'{row["attribute"]}: {row["value"]}')
+    
+    return ul_list
 
 ### NAMING FUNCTIONS
 def roll_description_table():
@@ -116,7 +154,8 @@ def generate_bare_bone_npc():
 
 '''
 TAVERN FUNCTIONS
-''' 
+'''
+# TAVERN LEVEL 1 - "HEARD OF" 
 def generate_tavern_name():
     # Pick the method randomly
     dice = randint(1,3)
@@ -149,17 +188,20 @@ def generate_tavern_name():
             tavern_name = f"The {first_part_name} & the {second_part_name}"
             return tavern_name
 
+# TAVERN LEVEL 2 - "FIRST GLANCE" 
 def generate_tavern_size():
-    # Unpack the table
-    with open('random_tables/tavern_size.json', 'r') as sizes:
-        tavern_size_table = json.load(sizes)
-
-    # Pick the good dice and roll it
-    MAX_DICE = len(tavern_size_table)-1
-    dice = randint(0,MAX_DICE)
-
-    # Roll it on the table
-    tavern_size = tavern_size_table[dice]
-    tavern_size = tavern_size["attribute"]
-    
+    table_path = 'random_tables/tavern_size.json'
+    tavern_size = roll_on_tables(table_path)
     return tavern_size
+
+def generate_tavern_atmosphere():
+    table_path = 'random_tables/tavern_atmosphere.json'
+    tavern_atmosphere = roll_on_tables(table_path)
+    return tavern_atmosphere
+
+def generate_tavern_level_two():
+    changes = [
+        {"attribute": 'size', "value": generate_tavern_size()},
+        {"attribute": 'atmosphere', "value": generate_tavern_atmosphere()}
+    ]
+    return changes
