@@ -20,7 +20,9 @@ with open('random_tables/naming_creatures.json', 'r') as others:
 
 with open('random_tables/naming_creatures.json', 'r') as people:
     people_naming_table = json.load(people)
-    
+
+with open('random_tables/general_wealth_level.json', 'r') as wealth:
+    wealth_level_table = json.load(wealth)
 '''
 GLOBAL FUNCTIONS
 '''
@@ -199,9 +201,38 @@ def generate_tavern_atmosphere():
     tavern_atmosphere = roll_on_tables(table_path)
     return tavern_atmosphere
 
+def generate_tavern_clientele():
+    table_path = 'random_tables/tavern_clientele.json'
+    tavern_clientele = roll_on_tables(table_path)
+    return tavern_clientele
+
+def generate_tavern_standing():
+    table_path = 'random_tables/general_wealth_level.json'
+    tavern_standing = roll_on_tables(table_path)
+    return tavern_standing
+
+def generate_tavern_description():
+    table_path = 'random_tables/tavern_description.json'
+    tavern_description = roll_on_tables(table_path)
+    return tavern_description
+
+def generate_tavern_description_details(description):
+    match description:
+        case "timber and thatch":
+         table_path = 'random_tables/tavern_description_timber_thatch.json'
+         tavern_details = roll_on_tables(table_path)
+         return tavern_details
+    return 'none'
+
 def generate_tavern_level_two():
+    tavern_description = generate_tavern_description()
+    tavern_details = generate_tavern_description_details(tavern_description)
     changes = [
         {"attribute": 'size', "value": generate_tavern_size()},
-        {"attribute": 'atmosphere', "value": generate_tavern_atmosphere()}
+        {"attribute": 'atmosphere', "value": generate_tavern_atmosphere()},
+        {"attribute": 'clientele', "value": generate_tavern_clientele()},
+        {"attribute": 'standing', "value": generate_tavern_standing()},
+        {"attribute": 'description', "value": tavern_description},
+        {"attribute": 'detail', "value": tavern_details}
     ]
     return changes

@@ -1,0 +1,3 @@
+The [type of tavern] is a [number of floors] [architecture style] building, with a [type of door] and a [type of floor]. The walls and ceiling are [description]. Accomodations consist of [quantity] [size] rooms with [type of beds]
+The [type of tavern] is a [adjective --modest] [architecture style], with [furniture descriptions]. [Wall decoration -- Several battered shields]. Accomodations consist of [number][bed types]
+Same as usual but + little trivia (used to be a blacksmith's shop)

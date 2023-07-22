@@ -49,14 +49,6 @@ def get_tavern_level_two():
 
     # Generate a ul list for the index page
     tavern_properties = generate_ul_list_of_properties(tavern_level_two)
-    
-    '''# Generate the size of the tavern
-    tavern_size = generate_tavern_size()
-
-    # Update the tavern node
-    query = "MATCH (tavern) WHERE ID(tavern)={tavern_id} SET tavern.size = '{tavern_size}'".format(tavern_id=tavern_id, tavern_size=tavern_size)
-    graph.run(query)
-    query = None'''
 
     # Return the value as JSON
     return jsonify({'value': tavern_properties})
